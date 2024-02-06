@@ -6,30 +6,31 @@ nav li {
   display: inline-block;
 }
 
-.first {
+.firstlogo {
   margin-top: 37px;
   margin-left: 97px;
 }
 
-.second {
+.Product {
   margin-top: 37px;
   margin-left: 320px;
   font-family: "Poppins", sans-serif;
   font-size: 14px;
-  font-weight: lighter;
+  font-weight: normal;
   color: black;
 }
 
-.third {
+.Customers,
+.Pricing,
+.Resources {
   margin-top: 37px;
   margin-left: 29px;
   color: black;
-  background-color: white;
-  width: 102px;
-  height: 46px;
-  border: none;
   font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
 }
+
 .Sign-in {
   margin-top: 37px;
   margin-left: 1px;
@@ -39,6 +40,7 @@ nav li {
   width: 110px;
   height: 46px;
   border: none;
+  font-size: 14px;
   font-family: "Poppins", sans-serif;
 }
 .Sign-up {
@@ -49,11 +51,22 @@ nav li {
   border-radius: 6px;
   width: 110px;
   height: 46px;
+  font-size: 14px;
   border: none;
+  font-family: "Poppins", sans-serif;
+}
+
+.Sign-in:hover,
+.Sign-up:hover {
+  cursor: pointer;
+  background-color: #ff9900;
+  transform: scale(1.2);
+  color: white;
 }
 
 section {
   display: inline-block;
+  cursor: pointer;
 }
 
 .Title {
@@ -96,6 +109,15 @@ section {
   height: 23px;
   border: none;
 }
+
+.Startbutton:hover,
+.Videobutton:hover {
+  cursor: pointer;
+  transform: scale(1, 1.5);
+  background-color: #ff9900;
+  color: white;
+}
+
 .title2 {
   text-align: center;
   font-size: 26px;
@@ -121,9 +143,49 @@ section {
   margin-top: 34px;
   border: none;
 }
+.signup2:hover {
+  cursor: pointer;
+  transform: scale(1.5, 1.5);
+}
 .thirdpart {
   width: 1110px;
   margin-top: 120px;
   height: 574px;
   margin-left: 145px;
+}
+
+.lastpart {
+  margin-top: 120px;
+  margin-left: 145px;
+}
+.logo {
+  transform: translateY(-120px);
+  width: 185px;
+  height: 32px;
+}
+
+.column {
+  display: inline-block;
+  margin-left: 129px;
+}
+
+.row {
+  display: block;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.final {
+  color: white;
+  background-color: #ff9900;
+  width: 100px;
+  height: 24px;
+  border: none;
+}
+
+.final:hover {
+  cursor: pointer;
+  transform: scale(1.5, 1.5);
 }
